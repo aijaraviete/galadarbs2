@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main .container {
+    max-width: 100%;
+}
+
+header nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer nav ul li {
+    display: inline-block;
+}
+
+header .container {
+    background:#ffcc00;
+    color: #202020;    
+    padding: 20px;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.btn {
+font-size: 20px;
+}
+footer .container {
+    background: #009999;
+    color: white;    
+    padding: 20px;
+    max-width: 100%;
+}
+
+header nav ul {
+    word-spacing: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+header nav ul li:nth-child(3) a {
+    word-spacing: initial;
+}
+
+footer nav ul li:nth-child(3) a {
+    word-spacing: initial;
+}
+
+footer nav ul {
+    word-spacing: 30px;
+    text-align: right;
+    font-size: 25px;
+}
+
+nav ul li a {
+    color: #202020;
+}
+
+p {
+    text-align: center;
+}
+#danceclasses {
+   text-align: center;
+}
+ 
+#bottom {
+    text-align: right;
+}
+
+#loginbutton {
+    align-items: stretch;
+}
+
+p {
+    text-align: justify;
+}
